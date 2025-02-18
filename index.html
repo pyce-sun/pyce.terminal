@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pyce.terminal</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000033;
+            color: #ffffff;
+            font-family: 'IBM Plex Mono', monospace;
+            line-height: 1.2;
+            margin: 0;
+            padding: 40px;
+            letter-spacing: 0.02em;
+        }
 
+        nav {
+            border-bottom: 1px solid #1a1a4d;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+
+        nav a {
+            color: #00FFFF;
+            text-decoration: none;
+            margin-right: 25px;
+            transition: all 0.2s ease;
+            opacity: 0.8;
+        }
+
+        nav a:hover {
+            opacity: 1;
+            text-shadow: 0 0 8px rgba(0, 255, 255, 0.5);
+        }
+
+        .site-title {
+            font-size: 28px;
+            margin-bottom: 25px;
+            color: #ffffff;
+            font-weight: 500;
+            letter-spacing: 0.05em;
+        }
+
+        .content-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .content-list li {
+            margin-bottom: 6px;
+            display: flex;
+            align-items: baseline;
+            padding: 4px 0;
+            transition: all 0.2s ease;
+        }
+
+        .content-list li:hover {
+            transform: translateX(10px);
+        }
+
+        .tag {
+            color: #FFA07A;
+            width: 60px;
+            flex-shrink: 0;
+            opacity: 0.9;
+        }
+
+        .post-type-container {
+            width: 120px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: baseline;
+        }
+
+        .post-type {
+            color: #7FFFD4;
+            padding: 0 5px;
+            width: 80px;
+            text-align: center;
+            font-size: 0.95em;
+            opacity: 0.9;
+        }
+
+        .slash {
+            color: #ffffff;
+            flex-shrink: 0;
+            opacity: 0.4;
+        }
+
+        .title {
+            color: #ffffff;
+            flex-grow: 1;
+            padding-left: 25px;
+            font-weight: 500;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px;
+            }
+            
+            .post-type-container {
+                width: 100px;
+            }
+            
+            .title {
+                padding-left: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="site-title">pyce.terminal</div>
+    <nav>
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+
+    </nav>
+    <ul class="content-list">
+        <li>
+            <span class="tag">[001]</span>
+            <span class="post-type-container"><span class="slash">/</span><span class="post-type">project</span><span class="slash">/</span></span>
+            <span class="title">TEST</span>
+        </li>
+    </ul>
+</body>
+</html>
