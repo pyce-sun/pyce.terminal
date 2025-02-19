@@ -87,11 +87,6 @@
             padding-top: 20px;
             border-top: 1px solid #1a1a4d;
         }
-
-        @media (max-width: 600px) {
-            body {
-                padding: 20px;
-            }
 /* Make headers bold */
 header {
     font-weight: bold;
@@ -104,8 +99,14 @@ header {
 /* Indent paragraphs */
 .post-content p {
     margin-bottom: 20px;
-    text-indent: 30px; /* Adds indentation */
+    margin-left: 30px; /* Adds indentation */
 }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px;
+            }
+
 
         }
     </style>
