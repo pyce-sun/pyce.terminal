@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pyce.terminal - Example Project One</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000033;
+            color: #ffffff;
+            font-family: 'IBM Plex Mono', monospace;
+            line-height: 1.2;
+            margin: 0;
+            padding: 40px;
+            letter-spacing: 0.02em;
+        }
+
+        .site-title {
+            font-size: 28px;
+            margin-bottom: 25px;
+            color: #ffffff;
+            font-weight: 500;
+            letter-spacing: 0.05em;
+        }
+
+        .post-header {
+            display: flex;
+            align-items: baseline;
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #1a1a4d;
+        }
+
+        .tag {
+            color: #FFA07A;
+            width: 60px;
+            flex-shrink: 0;
+            opacity: 0.9;
+        }
+
+        .post-type {
+            color: #7FFFD4;
+            padding: 0 5px;
+            font-size: 0.95em;
+            opacity: 0.9;
+        }
+
+        .slash {
+            color: #ffffff;
+            flex-shrink: 0;
+            opacity: 0.4;
+        }
+
+        .title {
+            color: #ffffff;
+            font-weight: 500;
+            margin-left: 15px;
+        }
+
+        .back-button {
+            display: inline-block;
+            color: #00FFFF;
+            text-decoration: none;
+            margin: 20px 0;
+            opacity: 0.8;
+            transition: all 0.2s ease;
+        }
+
+        .back-button:hover {
+            transform: translateX(-5px);
+            opacity: 1;
+            text-shadow: 0 0 8px rgba(0, 255, 255, 0.5);
+        }
+
+        .post-content {
+            line-height: 1.6;
+            margin: 30px 0;
+        }
+
+        .post-content p {
+            margin-bottom: 20px;
+        }
+
+        .post-footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #1a1a4d;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="site-title">pyce.terminal</div>
+    
+    <a href="index.html" class="back-button">&lt;&lt; back &lt;&lt;</a>
+    
+    <div class="post-header">
+        <span class="tag">[001]</span>
+        <span class="slash">/</span><span class="post-type">blog</span><span class="slash">/</span>
+        <span class="title">AWE IN VIDEO GAMES</span>
+    </div>
+    
+    <div class="post-content">
+        <header>
+            Today
+        </header>
+        
+        <p>
+            Cyberpunk 2077 is the best game I've played in the past ten years. This is for many reasons, perhaps most importantly because of the level of detail and writing of the game. It's hard to explain, but Night City feels like a real place with real people. It's not perfect, but there's something very special about receiving text messages from your NPC friends and being able to respond, for example. It is something so simple and so ubiquitous in real life that it is surprising that it's not a feature found everywhere (I bet it will show up in GTA VI).
+        </p>
+        
+        <p>
+            The characters have a presence and that, in turn, makes the detailed, varied surroundings seem even more realistic. The dense, almost claustrophobic design of Night City with all its alleyways, layering, and floating advertisements gives you a sense video games have been trying to accomplish for decades: a sense of a real place with real people, all having their own lives.
+        </p>
+        
+        <p>
+            It's peak: PHOTO PHOTO PHOTO
+        </p>
+        
+        <p>
+            The only thing that compares for me is the Mass Effect trilogy, specifically Mass Effect 1 and 2. In those games, similar things impressed me. Special attention was taken towards the characters, specifically how they respond to the dialogue and decisions chosen by the player. While this, frankly melodramatic, drama happened between you and the people in your squad, the game would show you vistas like this:
+        </p>
+
+        <p>
+            I loved this because it gave the sense that the Mass Effect galaxy was full of stories and interactions just like the ones I was having with the team members. It's very enthralling. One vista I will never forget is the sky box of the planet Alchera where there's the Normandy crash site in Mass Effect 2:
+        </p>
+
+        <p>
+What's important here is the combination between both the vistas and the writing, I think. I can show you a photo of the starry sky whenever, but it only creates the sense of awe and adventure in art when it's coupled with a "sense of fullness"--that is, full of people to know and things to learn about.
+        </p>
+
+        <p>
+        It's great.
+        </p>
+
+<header>
+Costs
+</header>
+
+<p>
+I believe that intellectual properties like Star Wars, Star Trek, Lord of the Rings, Game of Thrones, or Dune are so beloved precisely because they offer this one-two punch. It captures the imagination. And boy, do we want to live in their worlds.
+</p>
+
+<p>
+Of course, non of this is free and, it seems, that creating this type of awe and wonder is incredibly costly. These franchises are funded in the hundred millions of dollars. Without all that capital, they wouldn't exist. This is the case especially for video games. To achieve a game with as much fidelity as Cyberpunk, they needed about 200 million dollars and 8 years. And that wasn't even enough because the game famously released in a broken, unplayable state!
+</p>
+
+<p>
+Think of all the voice acting, sound mixing, landscape work, character work, animation, writing, game balancing, gun sound effects and all the rest. It's an unbelievable amount of work.
+</p>
+
+<p>
+Obviously, with things like books, it's a lot more manageable. Usually, it's one person--but think of how much that one person has to work! It consumes their life and they are to answer for all the ins-and-outs of the characters, plot, setting, and everything else.
+</p>
+
+<p>
+It really is fascinating that we, homo sapiens--a species evolved in the jungles of Africa--have created an arts and entertainment system as complicated and robust as this, all to play pretend and imagine how the world and other people could be.
+</p>
+
+<header>
+AI
+</header>
+
+<p>
+AI is taking off and we will definitely use it for the arts and entertainment industry. I suspect everybody will use it, even authors who are solely responsible for their work. The gains from using it are just too great. It will be our editors, our brainstorming machines, our emotional feedback. It will help us write "a line or two".
+</p>
+
+<p>
+More obviously, it will make special effects in movies cheaper. In large part, extras in films are digital already--the issue is that you need an artist to draft those fake people up. Soon, you won't need the artist. But it won't be that long till we see entire scenes created by AI. The possibilities are just too great.
+</p>
+
+<p>
+The same goes for Video Games. It's actually very easy for AI to draft big picture things like maps, land elevation, and so on. It's harder for the minute details. With games like Cyberpunk 2077 or Mass Effect, the minute details actually account for a whole lot. AI won't be able to fully render a gun, but it will be able to make the skeleton (likely a low resolution block). The human artist can then carve the skeleton and make it look even better. As such, people will be able to spend much more time on the minute detail.
+</p>
+
+<p>
+Indeed, I hope this is the direction that the arts go: give us more opportunity to make even better projects. If we give everything up to AI, I doubt we will feel the awe and wonder that, thus far, human art and entertainment can give us.
+</p>
+
+<header>
+Signaling
+</header>
+
+<p>
+AI made art and entertainment might also have to be an open secret for everyone. Imagine if, tomorrow, everyone who loved and adored the Lord of the Rings trilogy suddenly learned that, actually, it was written by a proto-AI and not created in the mind of Tolkien. Imagine the despair! 
+</p>
+
+<p>
+I suspect that the reason why this would be so horrifying to so many people is that, for art, the fact that it is made by "someone's own hands" makes us feel connected with the work of art more. It's not obvious as to why. One explanation is that a big part of art is signaling--we don't just want to see pretty things, but we want to both commend the artist and have ourselves be commended for enjoying the art.
+</p>
+
+<p>
+The artist signals their acumen and genius, we signal our intelligence and sophistication.
+</p>
+
+<p>
+The artist signals their acumen and genius, we signal our intelligence and sophistication.
+</p>
+
+<p>
+Could be, could be.
+</p>
+
+<p>
+Regardless, our reactions towards art are a reality and our knowledge certainly affects our impressions.
+</p>
+
+<header>
+But it'll be fine?
+</header>
+
+<p>
+We likely won't notice the use of AI in our art and entertainment. SO long as we have some feeling of an auteur somewhere, we'll be fine. Maybe.
+</p>
+
+<p>
+Still, I think it's a while until AI makes a convincing video game, for example. AI might be genius, but I don't see it surpassing the cognition of hundreds of individuals cooperating to make something convincing. There's a level of uncanniness that it has to pass through. In other words, AI creations now are about as good as the bad arts and entertainment that we make now. It will eventually cross that boundary, I think. The question is whether or not we will care.
+</p>
+
+<p>
+If a game like Cyberpunk 2077 were made completely by AI and I knew that fact while playing it.....I don't know....it might feel a bit colder and less special. While I play and am moved emotionally in the ways I am, I feel connected with the developers in some way. I'll probably never meet them, but I would like to tell them how I enjoyed it and what it made me feel. I suspect we love art because, at least in part, it makes us feel connected. We are relieved that we're not the only ones feeling certain emotions and thinking certain thoughts.
+</p>
+
+<p>
+ON THE OTHER HAND: something I do regularly with Claude is talk to it about my thoughts and emotions. Sometimes it works even better than a real person.
+</p>
+
+<p>
+So, the future is open.
+</p>
+
+    </div>
+    
+    <div class="post-footer">
+        <a href="index.html" class="back-button">&lt;&lt; back &lt;&lt;</a>
+    </div>
+</body>
+</html>
