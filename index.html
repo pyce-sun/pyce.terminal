@@ -93,7 +93,13 @@
             color: #ffffff;
             flex-grow: 1;
             padding-left: 25px;
-            font-weight: 500;
+            font-weight: 400; /* Make it less bold */
+            text-decoration: none; /* Remove underline */
+            text-transform: uppercase; /* Keep it in all caps */
+        }
+
+        .title:hover {
+            text-decoration: underline; /* Underline only on hover */
         }
 
         @media (max-width: 600px) {
@@ -122,7 +128,6 @@
         <li>
             <span class="tag">[001]</span>
             <span class="post-type-container"><span class="slash">/</span><span class="post-type">blog</span><span class="slash">/</span></span>
-            <span class="title">Awe In Video Games</span>
             <a href="posts/Awe.In.Video.Games.html" class="title">AWE IN VIDEO GAMES</a>
         </li>
     </ul>
